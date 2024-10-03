@@ -27,21 +27,22 @@ class Item:
                 except ValueError:
                     continue
 
-                if key == 'maxhitpoints':
-                    self.bonusHealth = int_value
-                elif key == 'boostpercentfire':
-                    self.reiDamage = int_value
-                elif key == 'pvemodifier':
-                    self.pvpModif = int_value
-                elif key == 'absorbpercentplayer':
-                    self.pvpProt = int_value
-                elif key == 'boostpercentphysical':
-                    self.physDamage = int_value
-                elif key == 'skillFist':
-                    self.critChance = int_value
-                elif key == 'skillDist':
-                    self.critStrike = int_value
-                elif key == 'skillAxe':
-                    self.castSpeed = int_value
-                elif key == 'skillClub':
-                    self.attackSpeed = int_value
+                match(key):
+                    case 'maxhitpoints':
+                        self.bonusHealth = int_value
+                    case 'boostpercentfire':
+                        self.reiDamage = int_value
+                    case 'pvemodifier':
+                        self.pvpModif = int_value
+                    case 'absorbpercentplayer':
+                        self.pvpProt = int_value
+                    case 'boostpercentphysical':
+                        self.physDamage = int_value
+                    case 'skillFist':
+                        self.critChance = int_value
+                    case 'skillDist':
+                        self.critStrike = int_value
+                    case 'skillAxe':
+                        self.castSpeed = int_value
+                    case 'skillClub':
+                        self.attackSpeed = int_value
