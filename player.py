@@ -1,14 +1,11 @@
+from typing import Literal
 import math
 import random
 import bisect
 
+from transform import Transform
+from talents import Talents
 from item import Item
-
-class Transform:
-    def __init__(self, level, multi, health):
-        self.level = level
-        self.multi = multi
-        self.health = health
 
 class Player:
     transforms = [
@@ -49,6 +46,7 @@ class Player:
         self.health = 1000
         self.transform = 0
         self.weapon = 0
+        self.talents = Talents()
         self.equipment: dict[str, None | Item] = {
             'helmet': None,
             'armor': None,
@@ -58,7 +56,10 @@ class Player:
         }
 
     def getHealth(self):
-        return self.health + (100 * (self.level - 1)) + self.transforms[self.transform].health
+        baseHealth = self.health + (100 * (self.level - 1)) + self.transforms[self.transform].health
+        talentsBonusHealth = self.talents.health + (self.soulLevel * self.talents.healthPerSoulLevel) + (baseHealth * (self.talents.healthPercent / 100))
+
+        return baseHealth + talentsBonusHealth
 
     def setTransform(self, transform):
         if transform == "auto":
@@ -97,6 +98,8 @@ class Player:
             if isinstance(piece, Item):
                 itemBonus += piece.critChance
 
+        itemBonus += self.talents.criticalStrikeChance
+
         return itemBonus
 
     def getCriticalStrikeValue(self):
@@ -105,6 +108,8 @@ class Player:
         for piece in self.equipment.values():
             if isinstance(piece, Item):
                 itemBonus += piece.critStrike
+
+        itemBonus += self.talents.criticalStrikeDamage
 
         return itemBonus
 
@@ -119,20 +124,17 @@ class Player:
     def getWeaponDamage(self):
         maxValue = self.getMaxWeaponDamage()
         if random.randint(0, 100) < self.getCriticalChanceValue():
-            print("CRITICAL!")
             maxValue = maxValue * (1 + (self.getCriticalStrikeValue() / 100))
 
         return random.randint(int(maxValue * 0.75), int(maxValue))
 
     def getMeleeDamage(self):
         weaponValue = self.getWeaponDamage()
-        itemBonus = 0
+        itemBonus = sum([piece.physDamage if isinstance(piece, Item) else 0 for piece in self.equipment.values()])
+        itemBonus += self.talents.meleeDamage * 10
+        talentsTotalDamageMulti = 1 + (self.talents.totalDamage / 100)
 
-        for piece in self.equipment.values():
-            if isinstance(piece, Item):
-                itemBonus += piece.physDamage
-
-        return int(weaponValue * self.transforms[self.transform].multi * (1 + itemBonus / 1000))
+        return int((weaponValue * self.transforms[self.transform].multi * (1 + itemBonus / 1000)) * talentsTotalDamageMulti)
 
     def getSpellDamage(self):
         base_damage = 0
@@ -152,10 +154,116 @@ class Player:
         min_damage *= self.transforms[self.transform].multi
         max_damage *= self.transforms[self.transform].multi
 
-        return random.randint(int(min_damage), int(max_damage))
+        itemBonus = sum([piece.reiDamage if isinstance(piece, Item) else 0 for piece in self.equipment.values()])
+        itemBonus += self.talents.reiatsuDamage * 10
+        talentsTotalDamageMulti = 1 + (self.talents.totalDamage / 100)
 
-    def setTalents(self):
-        raise Exception('Not Implemented')
+        return int((random.randint(int(min_damage), int(max_damage)) * (1 + itemBonus / 1000)) * talentsTotalDamageMulti)
 
-    def setSoulTalents(self):
-        raise Exception('Not Implemented')
+    def getAttackSpeed(self):
+        baseAttackSpeed = 2000
+        attackSpeedReduction = 1000
+        itemsAttackSpeed = sum([piece.attackSpeed if isinstance(piece, Item) else 0 for piece in self.equipment.values()])
+        talentsBonusAttackSpeed = 1 + (self.talents.attackSpeed / 100)
+        totalAttackSpeed = (attackSpeedReduction / round(baseAttackSpeed - itemsAttackSpeed)) * talentsBonusAttackSpeed
+
+        return totalAttackSpeed
+
+    def getSpellCooldown(self):
+        baseSpellCooldown = 2
+        itemsCastSpeed = sum([piece.castSpeed if isinstance(piece, Item) else 0 for piece in self.equipment.values()])
+        castingReduction = 1 + ((itemsCastSpeed + self.talents.castingSpeed) / 100)
+        totalSpellCooldown = baseSpellCooldown / castingReduction
+
+        return totalSpellCooldown
+
+    def calculateDamagePerSecond(self, time):
+        totalMeleeDamage = self.getMeleeDamage() * math.floor(self.getAttackSpeed() * time)
+        totalSpellDamage = self.getSpellDamage() * math.floor(time / self.getSpellCooldown())
+        damagePerSecond = totalMeleeDamage + totalSpellDamage
+
+        return round(damagePerSecond / time)
+
+    def setTalents(self, talents: list[Literal[1, 2, 3]]=[]):
+        """
+            8% max hp and 4% healing, 4% melee damage, 4% reiatsu damage\n
+            8% attack speed, 15% critical strike chance, 15% casting speed\n
+            16% max hp and 8% healing, 32% melee damage, 32% reiatsu damage\n
+            10% physical damage, 10% reiatsu damage, 4% healing\n
+            4% armor value, 3% player protection, 150 hp per slvl\n
+            15% physical damage, 15% reiatsu damage, 8% healing\n
+            15% critical strike chance, 15% casting speed, 8% attack speed\n
+            15% critical damage, 25% dot damage, 8% total damage\n
+            6% armor value, 4% player prot, 100k hp\n
+            40% physical damage, 40% reiatsu damage, 16% healing\n
+        """
+        talentsLength = len(talents)
+        self.talents = Talents()
+
+        if talentsLength >= 1:
+            if talents[0] == 1:
+                self.talents.healthPercent += 8
+            elif talents[0] == 2:
+                self.talents.meleeDamage += 4
+            elif talents[0] == 3:
+                self.talents.reiatsuDamage += 4
+
+        if talentsLength >= 2:
+            if talents[1] == 1:
+                self.talents.attackSpeed += 8
+            elif talents[1] == 2:
+                self.talents.criticalStrikeChance += 15
+            elif talents[1] == 3:
+                self.talents.castingSpeed += 15
+
+        if talentsLength >= 3:
+            if talents[2] == 1:
+                self.talents.healthPercent += 16
+            elif talents[2] == 2:
+                self.talents.meleeDamage += 32
+            elif talents[2] == 3:
+                self.talents.reiatsuDamage += 32
+
+        if talentsLength >= 4:
+            if talents[3] == 1:
+                self.talents.meleeDamage += 10
+            elif talents[3] == 2:
+                self.talents.reiatsuDamage += 10
+
+        if talentsLength >= 5:
+            if talents[4] == 2:
+                self.talents.playerProtection += 3
+            elif talents[4] == 3:
+                self.talents.healthPerSoulLevel += 150
+
+        if talentsLength >= 6:
+            if talents[5] == 1:
+                self.talents.meleeDamage += 15
+            elif talents[5] == 2:
+                self.talents.reiatsuDamage += 15
+
+        if talentsLength >= 7:
+            if talents[6] == 1:
+                self.talents.criticalStrikeChance += 15
+            elif talents[6] == 2:
+                self.talents.castingSpeed += 15
+            elif talents[6] == 3:
+                self.talents.attackSpeed += 8
+
+        if talentsLength >= 8:
+            if talents[7] == 1:
+                self.talents.criticalStrikeDamage += 15
+            elif talents[7] == 3:
+                self.talents.totalDamage += 8
+
+        if talentsLength >= 9:
+            if talents[8] == 2:
+                self.talents.playerProtection += 4
+            elif talents[8] == 3:
+                self.talents.health += 100000
+
+        if talentsLength >= 10:
+            if talents[9] == 1:
+                self.talents.meleeDamage += 40
+            elif talents[9] == 2:
+                self.talents.reiatsuDamage += 40

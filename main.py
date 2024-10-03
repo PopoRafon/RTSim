@@ -8,6 +8,8 @@ if __name__ == '__main__':
     gracz.setTransform("auto")
     gracz.setWeapon(2)
     gracz.setSkills(80, 80)
+    totalDPS = gracz.calculateDamagePerSecond(60)
 
-    print(gracz.getMeleeDamage())
-    print(gracz.getSpellDamage())
+    print(f'Damage per second: {totalDPS}')
+    print(f'Melee damage: {gracz.getMeleeDamage()}')
+    print(f'Spell damage: {gracz.getSpellDamage()}')
