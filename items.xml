@@ -1,0 +1,2509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item id="2480" article="a" name="bandana">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="10" />
+		<attribute key="slotType" value="head" />
+		<attribute key="healthGain" value="5" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="50" />
+	</item>
+    <item id="2650" article="a" name="t-shirt">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="10" />
+		<attribute key="slotType" value="body" />
+		<attribute key="healthGain" value="5" />
+		<attribute key="healthTicks" value="1000" />
+	</item>
+    <item id="10692" name="bandit legs">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="10" />
+		<attribute key="slotType" value="legs" />
+		<attribute key="healthGain" value="5" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="50" />
+	</item>
+    <item id="10680" name="trainers">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="10" />
+		<attribute key="slotType" value="feet" />
+		<attribute key="healthGain" value="5" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="50" />
+	</item>
+    <!-- ROBOT -->
+    <item id="2477" name="robot legs">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="20" />
+		<attribute key="slotType" value="legs" />
+		<attribute key="healthGain" value="10" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="70" />
+	</item>
+    <!-- SKELETON -->
+    <item id="10686" article="a" name="skeleton helmet">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="20" />
+		<attribute key="slotType" value="head" />
+		<attribute key="healthGain" value="10" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="100" />
+	</item>
+    <item id="10741" article="a" name="skeleton armor">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="20" />
+		<attribute key="slotType" value="body" />
+		<attribute key="healthGain" value="10" />
+		<attribute key="healthTicks" value="1000" />
+        <attribute key="maxhitpoints" value="100" />
+	</item>
+    <item id="10742" name="skeleton legs">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="20" />
+		<attribute key="slotType" value="legs" />
+		<attribute key="healthGain" value="10" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="100" />
+	</item>
+    <!-- MUMMY -->
+    <item id="10696" article="a" name="mummy helmet">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="30" />
+		<attribute key="slotType" value="head" />
+		<attribute key="healthGain" value="15" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="150" />
+	</item>
+    <item id="10693" article="a" name="mummy armor">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="30" />
+		<attribute key="slotType" value="body" />
+		<attribute key="healthGain" value="15" />
+		<attribute key="healthTicks" value="1000" />
+        <attribute key="maxhitpoints" value="150" />
+	</item>
+    <item id="10694" name="mummy legs">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="30" />
+		<attribute key="slotType" value="legs" />
+		<attribute key="healthGain" value="20" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="150" />
+	</item>
+    <item id="10695" name="mummy boots">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="30" />
+		<attribute key="slotType" value="feet" />
+		<attribute key="healthGain" value="15" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="150" />
+	</item>
+    <!-- VAMPIRE -->
+    <item id="13153" name="vampire slippers">
+        <attribute key="description" value="Life leech +5%."/>
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="40" />
+		<attribute key="slotType" value="feet" />
+		<attribute key="healthGain" value="15" />
+		<attribute key="healthTicks" value="1000" />
+        <attribute key="lifeleechchance" value="100"/>
+		<attribute key="lifeleechamount" value="5"/>
+		<attribute key="maxhitpoints" value="150" />
+	</item>
+    <!-- SOUL SNAKE -->
+    <item id="12056" article="a" name="snake mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="40" />
+		<attribute key="slotType" value="head" />
+		<attribute key="healthGain" value="25" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="250" />
+        <attribute key="boostpercentfire" value="10" />
+	</item>
+    <!-- SOUL WOLF -->
+	<item id="12057" article="a" name="wolf mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="40" />
+		<attribute key="slotType" value="head" />
+		<attribute key="healthGain" value="25" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="250" />
+        <attribute key="boostpercentphysical" value="10" />
+	</item>
+    <!-- RUNGOKAI -->
+    <item id="2483" article="a" name="rungokai kimono">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="50" />
+		<attribute key="slotType" value="body" />
+		<attribute key="healthGain" value="25" />
+		<attribute key="healthTicks" value="1000" />
+        <attribute key="maxhitpoints" value="300" />
+        <attribute key="boostpercentfire" value="20" />
+	</item>
+    <item id="10050" name="sandals">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="50" />
+		<attribute key="slotType" value="feet" />
+		<attribute key="healthGain" value="25" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="300" />
+        <attribute key="boostpercentfire" value="20" />
+	</item>
+    <!-- SAMURAI -->
+    <item id="10685" article="a" name="samurai helmet">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="60" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="boostpercentphysical" value="30" />
+		<attribute key="slotType" value="head" />
+		<attribute key="healthGain" value="35" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="500" />
+	</item>
+    <item id="10666" article="a" name="samurai armor">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="60" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="boostpercentphysical" value="30" />
+		<attribute key="slotType" value="body" />
+		<attribute key="healthGain" value="35" />
+		<attribute key="healthTicks" value="1000" />
+        <attribute key="maxhitpoints" value="500" />
+	</item>
+    <item id="10734" name="samurai legs">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="60" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="boostpercentphysical" value="30" />
+		<attribute key="slotType" value="legs" />
+		<attribute key="healthGain" value="35" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="500" />
+	</item>
+    <item id="12989" article="a" name="samurai boots">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="60" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="boostpercentphysical" value="30" />
+		<attribute key="slotType" value="feet" />
+		<attribute key="healthGain" value="35" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="500" />
+	</item>
+    <!-- MONK -->
+    <item id="10581" article="a" name="monk turban">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="60" />
+		<attribute key="slotType" value="head" />
+        <attribute key="boostpercentfire" value="30" />
+		<attribute key="healthGain" value="35" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="500" />
+	</item>
+    <item id="10735" article="a" name="monk shirt">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="60" />
+		<attribute key="slotType" value="body" />
+        <attribute key="boostpercentfire" value="30" />
+		<attribute key="healthGain" value="35" />
+		<attribute key="healthTicks" value="1000" />
+        <attribute key="maxhitpoints" value="500" />
+	</item>
+    <!-- SHINIGAMI -->
+    <item id="2494" article="a" name="shinigami kimono">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="60" />
+		<attribute key="slotType" value="body" />
+        <attribute key="skillClub" value="50" />
+        <attribute key="boostpercentfire" value="35" />
+		<attribute key="healthGain" value="45" />
+		<attribute key="healthTicks" value="1000" />
+        <attribute key="maxhitpoints" value="800" />
+	</item>
+    <item id="7894" name="shinigami legs">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="60" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="skillClub" value="50" />
+        <attribute key="boostpercentfire" value="35" />
+		<attribute key="healthGain" value="50" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="800" />
+	</item>
+    <item id="2513" name="shinigami sandals">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="60" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="skillClub" value="50" />
+        <attribute key="boostpercentfire" value="35" />
+		<attribute key="healthGain" value="45" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="800" />
+	</item>
+    <!-- HOLLOW -->
+    <item id="2473" article="a" name="hollow mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="80" />
+		<attribute key="slotType" value="head" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="boostpercentfire" value="35" />
+		<attribute key="healthGain" value="50" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="1000" />
+	</item>
+    <!-- SPIDER HOLLOW -->
+    <item id="2498" article="a" name="spider mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="80" />
+		<attribute key="slotType" value="head" />
+        <attribute key="skillAxe" value="6" />
+        <attribute key="boostpercentfire" value="40" />
+		<attribute key="healthGain" value="75" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="1500" />
+        <attribute key="pvemodifier" value="2" />
+	</item>
+    <!-- FULLBRINGER -->
+    <item id="2464" article="a" name="fullbringer shirt">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="100" />
+		<attribute key="slotType" value="body" />
+		<attribute key="healthGain" value="100" />
+        <attribute key="boostpercentphysical" value="40" />
+        <attribute key="absorbpercentplayer" value="2" />
+		<attribute key="healthTicks" value="1000" />
+        <attribute key="maxhitpoints" value="2000" />
+        <attribute key="pvemodifier" value="2" />
+	</item>
+    <!-- QUINCY -->
+    <item id="2485" article="a" name="quincy robe">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="100" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="boostpercentfire" value="40" />
+        <attribute key="absorbpercentplayer" value="2" />
+		<attribute key="slotType" value="body" />
+		<attribute key="healthGain" value="100" />
+		<attribute key="healthTicks" value="1000" />
+        <attribute key="maxhitpoints" value="1000" />
+        <attribute key="pvemodifier" value="2" />
+	</item>
+    <!-- HOLLOW CULTIST -->
+    <item id="10729" article="a" name="cultist jacket">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="120" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="boostpercentfire" value="50" />
+		<attribute key="slotType" value="body" />
+		<attribute key="healthGain" value="125" />
+		<attribute key="healthTicks" value="1000" />
+        <attribute key="maxhitpoints" value="1500" />
+        <attribute key="pvemodifier" value="3" />
+	</item>
+    <!-- CAPITANS -->
+    <item id="10668" article="a" name="capitan haori">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="120" />
+		<attribute key="slotType" value="body" />
+		<attribute key="healthGain" value="150" />
+		<attribute key="healthTicks" value="1000" />
+        <attribute key="maxhitpoints" value="2000" />
+        <attribute key="skillClub" value="120" />
+        <attribute key="boostpercentphysical" value="50" />
+        <attribute key="pvemodifier" value="4" />
+	</item>
+    <item id="12419" name="capitan legs">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="120" />
+		<attribute key="slotType" value="legs" />
+		<attribute key="healthGain" value="150" />
+		<attribute key="healthTicks" value="1000" />
+        <attribute key="maxhitpoints" value="2000" />
+        <attribute key="skillClub" value="120" />
+        <attribute key="boostpercentphysical" value="50" />
+        <attribute key="pvemodifier" value="4" />
+	</item>
+    <!-- BLANK -->
+    <item id="10730" article="a" name="blank armor">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="120" />
+		<attribute key="slotType" value="body" />
+		<attribute key="healthGain" value="150" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="2500" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="boostpercentfire" value="50" />
+        <attribute key="pvemodifier" value="4" />
+	</item>
+    <!-- GILIAN -->
+    <item id="10738" article="a" name="gilian mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="120" />
+		<attribute key="slotType" value="head" />
+		<attribute key="healthGain" value="150" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="2500" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="boostpercentfire" value="50" />
+        <attribute key="pvemodifier" value="4" />
+	</item>
+    <item id="10737" name="gilian boots">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="120" />
+		<attribute key="slotType" value="feet" />
+		<attribute key="healthGain" value="150" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="2500" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="boostpercentfire" value="50" />
+        <attribute key="pvemodifier" value="4" />
+	</item>
+    <!-- ADJUCHAS -->
+    <item id="10728" article="a" name="adjuchas mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="140" />
+		<attribute key="slotType" value="head" />
+		<attribute key="healthGain" value="200" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="3500" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="boostpercentfire" value="50" />
+        <attribute key="boostpercentphysical" value="60" />
+        <attribute key="pvpmodifier" value="4" />
+        <attribute key="pvemodifier" value="-6" />
+	</item>
+    <!-- ARRANCAR -->
+    <item id="2493" article="a" name="arrancar mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="140" />
+		<attribute key="slotType" value="head" />
+		<attribute key="healthGain" value="200" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="4000" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="boostpercentfire" value="50" />
+        <attribute key="boostpercentphysical" value="60" />
+        <attribute key="pvemodifier" value="6" />
+	</item>
+    <item id="7897" article="a" name="arrancar jacket">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="140" />
+		<attribute key="slotType" value="body" />
+		<attribute key="healthGain" value="200" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="4000" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="boostpercentfire" value="50" />
+        <attribute key="boostpercentphysical" value="60" />
+        <attribute key="pvemodifier" value="6" />
+	</item>
+    <!-- ESPADA -->
+    <item id="13203" name="espada boots">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="140" />
+		<attribute key="slotType" value="feet" />
+		<attribute key="healthGain" value="200" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="4000" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="boostpercentfire" value="50" />
+        <attribute key="boostpercentphysical" value="60" />
+        <attribute key="pvemodifier" value="6" />
+	</item>
+    <!-- ESPADA -->
+    <item id="12786" article="a" name="incomplete arrancar hide">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="140" />
+		<attribute key="slotType" value="body" />
+		<attribute key="healthGain" value="300" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="6000" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="pvemodifier" value="6" />
+	</item>
+    <!-- TOGABITO -->
+    <item id="12359" article="a" name="togabito mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="160" />
+		<attribute key="slotType" value="head" />
+		<attribute key="healthGain" value="200" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="4000" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="boostpercentfire" value="60" />
+        <attribute key="boostpercentphysical" value="70" />
+        <attribute key="pvemodifier" value="6" />
+	</item>
+    <item id="12455" article="a" name="togabito jacket">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="160" />
+		<attribute key="slotType" value="body" />
+		<attribute key="healthGain" value="200" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="4000" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="boostpercentfire" value="60" />
+        <attribute key="boostpercentphysical" value="70" />
+        <attribute key="pvemodifier" value="6" />
+	</item>
+    <!-- KUSHANADA -->
+    <item id="10724" article="a" name="kushanada armor">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="160" />
+		<attribute key="slotType" value="body" />
+		<attribute key="healthGain" value="250" />
+		<attribute key="healthTicks" value="1000" />
+        <attribute key="healthGain" value="400" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="8000" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="pvemodifier" value="6" />
+	</item>
+    <item id="12416" name="iron legs">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="160" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="healthGain" value="250" />
+		<attribute key="healthTicks" value="1000" />
+        <attribute key="healthGain" value="400" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="8000" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="pvemodifier" value="6" />
+	</item>
+    <!-- VASTO LORDE -->
+    <item id="10731" article="a" name="vasto lorde mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="160" />
+		<attribute key="slotType" value="head" />
+        <attribute key="healthGain" value="400" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="8000" />
+        <attribute key="skillClub" value="200" />
+        <attribute key="boostpercentfire" value="70" />
+        <attribute key="boostpercentphysical" value="80" />
+        <attribute key="pvemodifier" value="8" />
+	</item>
+    <!-- HOLLOW HUNTER -->
+    <item id="12794" article="a" name="ashido mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="160" />
+		<attribute key="slotType" value="head" />
+		<attribute key="healthGain" value="400" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="8000" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="boostpercentfire" value="60" />
+        <attribute key="boostpercentphysical" value="70" />
+        <attribute key="pvemodifier" value="8" />
+	</item>
+    <item id="12351" article="a" name="ashido coat">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="160" />
+		<attribute key="slotType" value="body" />
+		<attribute key="healthGain" value="400" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="8000" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="boostpercentfire" value="60" />
+        <attribute key="boostpercentphysical" value="70" />
+        <attribute key="pvemodifier" value="8" />
+	</item>
+    <item id="12425" name="ashido legs">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="160" />
+		<attribute key="slotType" value="legs" />
+		<attribute key="healthGain" value="400" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="8000" />
+        <attribute key="skillClub" value="100" />
+        <attribute key="boostpercentfire" value="60" />
+        <attribute key="boostpercentphysical" value="70" />
+        <attribute key="pvemodifier" value="8" />
+	</item>
+    <!-- PALACE SAMURAI -->
+    <item id="12054" article="a" name="palace samurai helmet">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="180" />
+		<attribute key="slotType" value="head" />
+		<attribute key="healthGain" value="600" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="12000" />
+        <attribute key="skillClub" value="150" />
+        <attribute key="boostpercentfire" value="80" />
+        <attribute key="boostpercentphysical" value="100" />
+        <attribute key="pvemodifier" value="8" />
+	</item>
+    <item id="12053" article="a" name="palace samurai armor">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="180" />
+		<attribute key="slotType" value="body" />
+		<attribute key="healthGain" value="600" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="12000" />
+        <attribute key="skillClub" value="150" />
+        <attribute key="boostpercentfire" value="80" />
+        <attribute key="boostpercentphysical" value="100" />
+        <attribute key="pvemodifier" value="8" />
+	</item>
+    <item id="12055" name="palace samurai legs">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="180" />
+		<attribute key="slotType" value="legs" />
+		<attribute key="healthGain" value="600" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="12000" />
+        <attribute key="skillClub" value="150" />
+        <attribute key="boostpercentfire" value="80" />
+        <attribute key="boostpercentphysical" value="100" />
+        <attribute key="pvemodifier" value="8" />
+	</item>
+    <item id="12052" name="palace samurai boots">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="180" />
+		<attribute key="slotType" value="feet" />
+		<attribute key="healthGain" value="600" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="12000" />
+        <attribute key="skillClub" value="150" />
+        <attribute key="boostpercentfire" value="80" />
+        <attribute key="boostpercentphysical" value="100" />
+        <attribute key="pvemodifier" value="8" />
+	</item>
+    <!-- SOLDAT -->
+    <item id="13107" name="wandenreich boots">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="200" />
+		<attribute key="slotType" value="feet" />
+		<attribute key="healthGain" value="800" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="15000" />
+        <attribute key="skillClub" value="150" />
+        <attribute key="boostpercentfire" value="100" />
+        <attribute key="boostpercentphysical" value="120" />
+        <attribute key="pvemodifier" value="8" />
+	</item>
+    <item id="13472" name="wandenreich cape">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="200" />
+		<attribute key="slotType" value="body" />
+		<attribute key="healthGain" value="800" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="15000" />
+        <attribute key="skillClub" value="150" />
+        <attribute key="boostpercentfire" value="100" />
+        <attribute key="boostpercentphysical" value="120" />
+        <attribute key="pvemodifier" value="8" />
+	</item>
+    <!-- LUNATICS -->
+    <item id="5924" article="a" name="lunatic hollow mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="skillAxe" value="10" />
+		<attribute key="armor" value="215" />
+		<attribute key="slotType" value="head" />
+		<attribute key="healthGain" value="800" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="15000" />
+        <attribute key="skillClub" value="150" />
+        <attribute key="boostpercentfire" value="100" />
+        <attribute key="boostpercentphysical" value="120" />
+        <attribute key="pvemodifier" value="8" />
+	</item>
+    <!-- CORRUPTED SHINIGAMI -->
+    <item id="12049" article="a" name="corrupted kimono">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="300" />
+		<attribute key="slotType" value="body" />
+		<attribute key="healthGain" value="1000" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="20000" />
+        <attribute key="skillClub" value="200" />
+        <attribute key="boostpercentfire" value="120" />
+        <attribute key="boostpercentphysical" value="150" />
+	</item>
+    <item id="12050" name="corrupted legs">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="300" />
+		<attribute key="slotType" value="legs" />
+		<attribute key="healthGain" value="1000" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="20000" />
+        <attribute key="skillClub" value="200" />
+        <attribute key="boostpercentfire" value="120" />
+        <attribute key="boostpercentphysical" value="150" />
+	</item>
+    
+    <item id="13086" name="ressurected boots">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="300" />
+		<attribute key="slotType" value="feet" />
+		<attribute key="healthGain" value="1000" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="20000" />
+        <attribute key="skillClub" value="200" />
+        <attribute key="boostpercentfire" value="120" />
+        <attribute key="boostpercentphysical" value="150" />
+	</item>
+    
+    <!-- QUEST ITEMS -->
+    <item id="10740" article="a" name="pharaon mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="50" />
+		<attribute key="slotType" value="head" />
+		<attribute key="healthGain" value="30" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="300" />
+	</item>
+    <item id="12051" article="a" name="pharaon plate">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="50" />
+		<attribute key="slotType" value="body" />
+		<attribute key="healthGain" value="30" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="300" />
+	</item>
+    
+    <item id="10736" article="a" name="medusa mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="125" />
+		<attribute key="slotType" value="head" />
+		<attribute key="healthGain" value="200" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="3500" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="pvpmodifier" value="4" />
+        <attribute key="boostpercentphysical" value="55" />
+        <attribute key="boostpercentfire" value="50" />
+	</item>
+    
+    <item id="2505" article="a" name="forgotten ichigo robe">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="120" />
+		<attribute key="healthGain" value="150" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="3000" />
+		<attribute key="slotType" value="body" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="boostpercentphysical" value="55" />
+        <attribute key="boostpercentfire" value="50" />
+        <attribute key="pvpmodifier" value="4" />
+        <attribute key="pvemodifier" value="-6" />
+        <attribute key="absorbpercentplayer" value="2" />
+	</item>
+    
+    <item id="12988" article="a" name="forgotten legs">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="120" />
+		<attribute key="healthGain" value="150" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="3000" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="boostpercentphysical" value="55" />
+        <attribute key="boostpercentfire" value="50" />
+        <attribute key="pvpmodifier" value="4" />
+        <attribute key="pvemodifier" value="-6" />
+        <attribute key="absorbpercentplayer" value="2" />
+	</item>
+    
+    <item id="13102" article="a" name="forgotten sandals">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="120" />
+		<attribute key="healthGain" value="150" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="maxhitpoints" value="3000" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="boostpercentphysical" value="55" />
+        <attribute key="boostpercentfire" value="50" />
+        <attribute key="pvpmodifier" value="4" />
+        <attribute key="pvemodifier" value="-6" />
+        <attribute key="absorbpercentplayer" value="2" />
+	</item>
+   
+    <item id="12456" article="a" name="Don Kanonji cape">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="125" />
+		<attribute key="slotType" value="body" />
+		<attribute key="healthGain" value="25" />
+		<attribute key="healthTicks" value="1000" />
+	</item>
+    
+    <item id="12427" article="a" name="Karakura Hero armor">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="125" />
+		<attribute key="slotType" value="body" />
+		<attribute key="healthGain" value="25" />
+		<attribute key="healthTicks" value="1000" />
+	</item>
+    
+    <!-- DUNGEON ITEMS -->
+    <!-- GRAND FISHER -->
+    <item id="13233" article="a" name="Grand Fisher mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="100" />
+        <attribute key="maxhitpoints" value="6000" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="absorbpercentplayer" value="4" />
+        <attribute key="skillAxe" value="15" />
+        <attribute key="boostpercentphysical" value="35" />
+        <attribute key="boostpercentfire" value="25" />
+		<attribute key="slotType" value="head" />
+	</item>
+    <!-- MELEE PVE -->
+    <item id="13100" article="a" name="Hiyori mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="120" />
+        <attribute key="skillClub" value="290" />
+        <attribute key="boostpercentphysical" value="55" />
+		<attribute key="slotType" value="head" />
+        <attribute key="maxhitpoints" value="3000" />
+        <attribute key="pvemodifier" value="8" />
+        <attribute key="pvpmodifier" value="-10" />
+	</item>
+    <item id="12350" article="a" name="Hiyori jacket">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="120" />
+        <attribute key="skillClub" value="290" />
+        <attribute key="boostpercentphysical" value="55" />
+		<attribute key="slotType" value="body" />
+        <attribute key="maxhitpoints" value="3000" />
+        <attribute key="pvemodifier" value="8" />
+        <attribute key="pvpmodifier" value="-10" />
+	</item>
+    <item id="13240" article="a" name="Hiyori legs">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="120" />
+        <attribute key="skillClub" value="290" />
+        <attribute key="boostpercentphysical" value="55" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="maxhitpoints" value="3000" />
+        <attribute key="pvemodifier" value="8" />
+        <attribute key="pvpmodifier" value="-10" />
+	</item>
+    <item id="13238" article="a" name="Hiyori trainers">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="120" />
+        <attribute key="skillClub" value="290" />
+        <attribute key="boostpercentphysical" value="55" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="maxhitpoints" value="3000" />
+        <attribute key="pvemodifier" value="8" />
+        <attribute key="pvpmodifier" value="-10" />
+	</item>
+    <!-- REIATSU PVE -->
+    <item id="12348" article="a" name="Urahara hat">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="120" />
+		<attribute key="skillClub" value="125" />
+        <attribute key="boostpercentfire" value="50" />
+		<attribute key="slotType" value="head" />
+        <attribute key="maxhitpoints" value="3000" />
+        <attribute key="pvemodifier" value="8" />
+        <attribute key="pvpmodifier" value="-10" />
+	</item>
+    <item id="12417" article="a" name="Urahara jacket">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="120" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="boostpercentfire" value="50" />
+		<attribute key="slotType" value="body" />
+        <attribute key="maxhitpoints" value="3000" />
+        <attribute key="pvemodifier" value="8" />
+        <attribute key="pvpmodifier" value="-10" />
+	</item>
+    <item id="13093" article="a" name="Urahara legs">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="120" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="boostpercentfire" value="50" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="maxhitpoints" value="3000" />
+        <attribute key="pvemodifier" value="8" />
+        <attribute key="pvpmodifier" value="-10" />
+	</item>
+    <item id="10594" name="Urahara sandals">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="120" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="boostpercentfire" value="50" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="maxhitpoints" value="3000" />
+        <attribute key="pvemodifier" value="8" />
+        <attribute key="pvpmodifier" value="-10" />
+	</item>
+    <!-- YAMMY SET -->
+    <item id="12349" article="a" name="Yammy mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="140" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="4" />
+        <attribute key="maxhitpoints" value="5000" />
+        <attribute key="boostpercentfire" value="50" />
+		<attribute key="slotType" value="head" />
+        <attribute key="pvemodifier" value="8" />
+	</item>
+    <item id="12363" article="a" name="Yammy armor">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="140" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="4" />
+        <attribute key="maxhitpoints" value="5000" />
+        <attribute key="boostpercentfire" value="50" />
+		<attribute key="slotType" value="body" />
+        <attribute key="pvemodifier" value="8" />
+	</item>
+    <item id="13767" article="a" name="Yammy covering">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="140" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="4" />
+        <attribute key="maxhitpoints" value="5000" />
+        <attribute key="boostpercentfire" value="50" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="pvemodifier" value="8" />
+	</item>
+    <item id="13768" article="a" name="Yammy feets">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="140" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="4" />
+        <attribute key="maxhitpoints" value="5000" />
+        <attribute key="boostpercentfire" value="50" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="pvemodifier" value="8" />
+	</item>
+    <!-- GRIMMJOW SET -->
+    <item id="2461" article="a" name="Grimmjow mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="140" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="4" />
+        <attribute key="boostpercentfire" value="50" />
+		<attribute key="slotType" value="head" />
+        <attribute key="maxhitpoints" value="5000" />
+        <attribute key="pvpmodifier" value="6" />
+	</item>
+    <item id="12365" article="a" name="Grimmjow jacket">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="140" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="4" />
+        <attribute key="boostpercentfire" value="50" />
+		<attribute key="slotType" value="body" />
+        <attribute key="maxhitpoints" value="5000" />
+        <attribute key="pvpmodifier" value="6" />
+	</item>
+    <item id="13763" article="a" name="Grimmjow legs">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="140" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="4" />
+        <attribute key="boostpercentfire" value="50" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="maxhitpoints" value="5000" />
+        <attribute key="pvpmodifier" value="6" />
+	</item>
+    <item id="13764" article="a" name="Grimmjow talons">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="140" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="4" />
+        <attribute key="boostpercentfire" value="50" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="maxhitpoints" value="5000" />
+        <attribute key="pvpmodifier" value="6" />
+	</item>
+    <!-- BARRAGAN SET -->
+    <item id="12420" article="a" name="Barragan mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="140" />
+        <attribute key="skillClub" value="200" />
+        <attribute key="absorbpercentplayer" value="4" />
+        <attribute key="boostpercentphysical" value="60" />
+		<attribute key="slotType" value="head" />
+        <attribute key="maxhitpoints" value="5000" />
+        <attribute key="pvemodifier" value="8" />
+        <attribute key="skillFist" value="10" />
+	</item>
+    <item id="13111" article="a" name="Barragan jacket">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="140" />
+        <attribute key="skillClub" value="200" />
+        <attribute key="absorbpercentplayer" value="4" />
+        <attribute key="boostpercentphysical" value="60" />
+		<attribute key="slotType" value="body" />
+        <attribute key="maxhitpoints" value="5000" />
+        <attribute key="pvemodifier" value="8" />
+        <attribute key="skillFist" value="10" />
+	</item>
+    <item id="13787" article="a" name="Barragan legs">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="140" />
+        <attribute key="skillClub" value="200" />
+        <attribute key="absorbpercentplayer" value="4" />
+        <attribute key="boostpercentphysical" value="60" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="maxhitpoints" value="5000" />
+        <attribute key="pvemodifier" value="8" />
+        <attribute key="skillFist" value="10" />
+	</item>
+    <item id="13785" article="a" name="Barragan boots">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="140" />
+        <attribute key="skillClub" value="200" />
+        <attribute key="absorbpercentplayer" value="4" />
+        <attribute key="boostpercentphysical" value="60" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="maxhitpoints" value="5000" />
+        <attribute key="pvemodifier" value="8" />
+        <attribute key="skillFist" value="10" />
+	</item>
+    <!-- STARRK SET -->
+    <item id="13103" name="Coyote Starrk eyepatch">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="140" />
+        <attribute key="skillClub" value="300" />
+        <attribute key="absorbpercentplayer" value="4" />
+        <attribute key="boostpercentphysical" value="60" />
+        <attribute key="skillFist" value="10" />
+		<attribute key="slotType" value="head" />
+        <attribute key="maxhitpoints" value="5000" />
+        <attribute key="pvpmodifier" value="6" />
+	</item>
+    <item id="12364" article="a" name="Coyote Starrk jacket">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="140" />
+		<attribute key="skillClub" value="300" />
+        <attribute key="absorbpercentplayer" value="4" />
+        <attribute key="boostpercentphysical" value="60" />
+        <attribute key="skillFist" value="10" />
+		<attribute key="slotType" value="body" />
+        <attribute key="maxhitpoints" value="5000" />
+        <attribute key="pvpmodifier" value="6" />
+	</item>
+    <item id="12421" article="a" name="Coyote Starrk legs">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="140" />
+		<attribute key="skillClub" value="300" />
+        <attribute key="absorbpercentplayer" value="4" />
+        <attribute key="boostpercentphysical" value="60" />
+        <attribute key="skillFist" value="10" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="maxhitpoints" value="5000" />
+        <attribute key="pvpmodifier" value="6" />
+	</item>
+    <item id="13769" article="a" name="Coyote Starrk boots">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="140" />
+		<attribute key="skillClub" value="300" />
+        <attribute key="absorbpercentplayer" value="4" />
+        <attribute key="boostpercentphysical" value="60" />
+        <attribute key="skillFist" value="10" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="maxhitpoints" value="5000" />
+        <attribute key="pvpmodifier" value="6" />
+	</item>
+    <!-- CAST SPEED SET -->
+    <item id="13199" article="a" name="Ulquiorra horns">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="160" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="skillAxe" value="25" />
+        <attribute key="absorbpercentplayer" value="6" />
+        <attribute key="boostpercentfire" value="60" />
+		<attribute key="slotType" value="head" />
+        <attribute key="maxhitpoints" value="8000" />
+        <attribute key="manaGain" value="100" />
+		<attribute key="manaTicks" value="1000" />
+        <attribute key="pvpmodifier" value="6" />
+	</item>
+    <item id="13200" article="a" name="Ulquiorra chest">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="160" />
+		<attribute key="skillClub" value="125" />
+        <attribute key="skillAxe" value="25" />
+        <attribute key="absorbpercentplayer" value="6" />
+        <attribute key="boostpercentfire" value="60" />
+		<attribute key="slotType" value="body" />
+        <attribute key="maxhitpoints" value="8000" />
+        <attribute key="manaGain" value="100" />
+		<attribute key="manaTicks" value="1000" />
+        <attribute key="pvpmodifier" value="6" />
+	</item>
+    <item id="13201" name="Ulquiorra pants">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="160" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="skillAxe" value="25" />
+        <attribute key="absorbpercentplayer" value="6" />
+        <attribute key="boostpercentfire" value="60" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="maxhitpoints" value="8000" />
+        <attribute key="manaGain" value="100" />
+		<attribute key="manaTicks" value="1000" />
+        <attribute key="pvpmodifier" value="6" />
+	</item>
+    <item id="13202" name="Ulquiorra talons">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="160" />
+		<attribute key="skillClub" value="125" />
+        <attribute key="skillAxe" value="25" />
+        <attribute key="absorbpercentplayer" value="6" />
+        <attribute key="boostpercentfire" value="60" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="maxhitpoints" value="8000" />
+        <attribute key="manaGain" value="100" />
+		<attribute key="manaTicks" value="1000" />
+        <attribute key="pvpmodifier" value="6" />
+	</item>
+    <!-- MELEE SWING SET -->
+    <item id="13195" article="a" name="Nnoitra mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="160" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="6" />
+        <attribute key="boostpercentphysical" value="64" />
+		<attribute key="slotType" value="head" />
+        <attribute key="maxhitpoints" value="8000" />
+        <attribute key="pvpmodifier" value="6" />
+	</item>
+    <item id="12452" article="a" name="Nnoitra shirt">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="160" />
+		<attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="6" />
+        <attribute key="boostpercentphysical" value="64" />
+		<attribute key="slotType" value="body" />
+        <attribute key="maxhitpoints" value="8000" />
+        <attribute key="pvpmodifier" value="6" />
+	</item>
+    <item id="12424" name="Nnoitra legs">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="160" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="6" />
+        <attribute key="boostpercentphysical" value="64" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="maxhitpoints" value="8000" />
+        <attribute key="pvpmodifier" value="6" />
+	</item>
+    <item id="13198" name="Nnoitra boots">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="160" />
+		<attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="6" />
+        <attribute key="boostpercentphysical" value="64" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="maxhitpoints" value="8000" />
+        <attribute key="pvpmodifier" value="6" />
+	</item>
+    <!-- PROT SET -->
+    <item id="13770" article="a" name="Ichigo fullbringer mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="maxhitpoints" value="14000" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="29" />
+        <attribute key="boostpercentfire" value="23" />
+		<attribute key="slotType" value="head" />
+	</item>
+    <item id="13771" article="a" name="Ichigo fullbringer plate">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="maxhitpoints" value="14000" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="29" />
+        <attribute key="boostpercentfire" value="23" />
+		<attribute key="slotType" value="body" />
+	</item>
+    <item id="13098" article="a" name="Ichigo fullbringer legs">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="maxhitpoints" value="14000" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="29" />
+        <attribute key="boostpercentfire" value="23" />
+		<attribute key="slotType" value="legs" />
+	</item>
+    <item id="13099" article="a" name="Ichigo fullbringer boots">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="maxhitpoints" value="14000" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="29" />
+        <attribute key="boostpercentfire" value="23" />
+		<attribute key="slotType" value="feet" />
+	</item>
+    <!-- REIATSU PVP 1 SET -->
+    <item id="12788" article="a" name="Hollowed Hichigo mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentfire" value="140" />
+        <attribute key="maxhitpoints" value="10000" />
+		<attribute key="slotType" value="head" />
+        <attribute key="manaGain" value="200" />
+		<attribute key="manaTicks" value="1000" />
+        <attribute key="pvemodifier" value="12" />
+        <attribute key="skillAxe" value="25" />
+	</item>
+    <item id="13237" article="a" name="Hollowed Hichigo coat">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentfire" value="140" />
+        <attribute key="maxhitpoints" value="10000" />
+		<attribute key="slotType" value="body" />
+        <attribute key="manaGain" value="200" />
+		<attribute key="manaTicks" value="1000" />
+        <attribute key="pvemodifier" value="12" />
+        <attribute key="skillAxe" value="25" />
+	</item>
+    <item id="13772" article="a" name="Hollowed Hichigo hakama">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentfire" value="140" />
+        <attribute key="maxhitpoints" value="10000" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="manaGain" value="200" />
+		<attribute key="manaTicks" value="1000" />
+        <attribute key="pvemodifier" value="12" />
+        <attribute key="skillAxe" value="25" />
+	</item>
+    <item id="13773" article="a" name="Hollowed Hichigo sandals">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentfire" value="140" />
+        <attribute key="maxhitpoints" value="10000" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="manaGain" value="200" />
+		<attribute key="manaTicks" value="1000" />
+        <attribute key="pvemodifier" value="12" />
+        <attribute key="skillAxe" value="25" />
+	</item>
+    <!-- MELEE PVP 1 SET -->
+    <item id="13236" article="a" name="Tensa Zangetsu eyeglasses">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="300" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentphysical" value="130" />
+        <attribute key="maxhitpoints" value="10000" />
+		<attribute key="slotType" value="head" />
+        <attribute key="pvemodifier" value="8" />
+	</item>
+    <item id="12426" article="a" name="Tensa Zangetsu coat">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="300" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentphysical" value="130" />
+        <attribute key="maxhitpoints" value="10000" />
+		<attribute key="slotType" value="body" />
+        <attribute key="pvemodifier" value="8" />
+	</item>
+    <item id="13774" article="a" name="Tensa Zangetsu legs">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="300" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentphysical" value="130" />
+        <attribute key="maxhitpoints" value="10000" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="pvemodifier" value="8" />
+	</item>
+    <item id="13775" article="a" name="Tensa Zangetsu boots">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="300" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentphysical" value="130" />
+        <attribute key="maxhitpoints" value="10000" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="pvemodifier" value="8" />
+	</item>
+    <!-- BLIND SET -->
+    <item id="12434" article="a" name="Hollowed Tousen mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="64" />
+        <attribute key="boostpercentfire" value="60" />
+        <attribute key="maxhitpoints" value="20000" />
+		<attribute key="slotType" value="head" />
+	</item>
+    <item id="12451" article="a" name="Tousen coat">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="64" />
+        <attribute key="boostpercentfire" value="60" />
+        <attribute key="maxhitpoints" value="20000" />
+		<attribute key="slotType" value="body" />
+	</item>
+    <item id="13776" article="a" name="Tousen legs">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="64" />
+        <attribute key="boostpercentfire" value="60" />
+        <attribute key="maxhitpoints" value="20000" />
+		<attribute key="slotType" value="legs" />
+	</item>
+    <item id="13777" article="a" name="Tousen boots">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="64" />
+        <attribute key="boostpercentfire" value="60" />
+        <attribute key="maxhitpoints" value="20000" />
+		<attribute key="slotType" value="feet" />
+	</item>
+    <!-- AIZEN SET -->
+    <item id="13239" article="a" name="Hollowed Aizen mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentfire" value="100" />
+        <attribute key="maxhitpoints" value="14000" />
+		<attribute key="slotType" value="head" />
+        <attribute key="pvpmodifier" value="8" />
+        <attribute key="skillAxe" value="25" />
+	</item>
+    <item id="13778" article="a" name="Hollowed Aizen jacket">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentfire" value="100" />
+        <attribute key="maxhitpoints" value="14000" />
+		<attribute key="slotType" value="body" />
+        <attribute key="pvpmodifier" value="8" />
+        <attribute key="skillAxe" value="25" />
+	</item>
+    <item id="13779" article="a" name="Hollowed Aizen legs">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentfire" value="100" />
+        <attribute key="maxhitpoints" value="14000" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="pvpmodifier" value="8" />
+        <attribute key="skillAxe" value="25" />
+	</item>
+    <item id="13780" article="a" name="Hollowed Aizen boots">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentfire" value="100" />
+        <attribute key="maxhitpoints" value="14000" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="pvpmodifier" value="8" />
+        <attribute key="skillAxe" value="25" />
+	</item>
+    <!-- HARRIBEL SET -->
+    <item id="14026" article="a" name="Harribel mask">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentphysical" value="120" />
+		<attribute key="slotType" value="head" />
+        <attribute key="maxhitpoints" value="14000" />
+        <attribute key="pvpmodifier" value="8" />
+        <attribute key="skillFist" value="10" />
+	</item>
+    <item id="14027" article="a" name="Harribel shirt">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="180" />
+		<attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentphysical" value="120" />
+		<attribute key="slotType" value="body" />
+        <attribute key="maxhitpoints" value="14000" />
+        <attribute key="pvpmodifier" value="8" />
+        <attribute key="skillFist" value="10" />
+	</item>
+    <item id="14028" name="Harribel skirt">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="180" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentphysical" value="120" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="maxhitpoints" value="14000" />
+        <attribute key="pvpmodifier" value="8" />
+        <attribute key="skillFist" value="10" />
+	</item>
+    <item id="14029" name="Harribel boots">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="180" />
+		<attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentphysical" value="120" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="maxhitpoints" value="14000" />
+        <attribute key="pvpmodifier" value="8" />
+        <attribute key="skillFist" value="10" />
+	</item>
+    <!-- AS SET -->
+    <item id="10683" article="a" name="Shunsui hat">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="200" />
+		<attribute key="skillClub" value="400" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentphysical" value="20" />
+        <attribute key="maxhitpoints" value="12000" />
+		<attribute key="slotType" value="head" />
+        <attribute key="pvpmodifier" value="8" />
+	</item>
+    <item id="10667" article="a" name="Shunsui haori">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="200" />
+		<attribute key="skillClub" value="400" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentphysical" value="20" />
+        <attribute key="maxhitpoints" value="12000" />
+		<attribute key="slotType" value="body" />
+        <attribute key="pvpmodifier" value="8" />
+	</item>
+    <item id="13204" name="Shunsui hakama">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="200" />
+        <attribute key="skillClub" value="400" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentphysical" value="20" />
+        <attribute key="maxhitpoints" value="12000" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="pvpmodifier" value="8" />
+	</item>
+    <item id="10674" name="Shunsui sandals">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="200" />
+		<attribute key="skillClub" value="400" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentphysical" value="20" />
+        <attribute key="maxhitpoints" value="12000" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="pvpmodifier" value="8" />
+	</item>
+    <!-- FIRE DoT SET -->
+    <item id="13781" article="a" name="Yamamoto beard ribbon">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="200" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentfire" value="70" />
+        <attribute key="maxhitpoints" value="14000" />
+		<attribute key="slotType" value="head" />
+        <attribute key="skillAxe" value="20" />
+        <attribute key="pvpmodifier" value="8" />
+	</item>
+    <item id="2528" article="a" name="Yamamoto shirt">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="200" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentfire" value="70" />
+        <attribute key="maxhitpoints" value="14000" />
+		<attribute key="slotType" value="body" />
+        <attribute key="skillAxe" value="20" />
+        <attribute key="pvpmodifier" value="8" />
+	</item>
+    <item id="10709" name="Yamamoto hakama">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="200" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentfire" value="70" />
+        <attribute key="maxhitpoints" value="14000" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="skillAxe" value="20" />
+        <attribute key="pvpmodifier" value="8" />
+	</item>
+    <item id="13782" name="Yamamoto sandals">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="200" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentfire" value="70" />
+        <attribute key="maxhitpoints" value="14000" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="skillAxe" value="20" />
+        <attribute key="pvpmodifier" value="8" />
+	</item>
+    <!-- MELEE PVP 2 SET --> 
+    <item id="13814" name="Ressurected Lord crown">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="215" />
+        <attribute key="skillClub" value="300" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentphysical" value="120" />
+        <attribute key="maxhitpoints" value="16000" />
+		<attribute key="slotType" value="head" />
+        <attribute key="pvemodifier" value="8" />
+        <attribute key="skillFist" value="5" />
+	</item>
+    <item id="13815" article="a" name="Ressurected Lord jacket">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="215" />
+        <attribute key="skillClub" value="300" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentphysical" value="120" />
+        <attribute key="maxhitpoints" value="16000" />
+		<attribute key="slotType" value="body" />
+        <attribute key="pvemodifier" value="8" />
+        <attribute key="skillFist" value="5" />
+	</item>
+    <item id="10733" article="a" name="Ressurected Lord legs">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="215" />
+        <attribute key="skillClub" value="300" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentphysical" value="120" />
+        <attribute key="maxhitpoints" value="16000" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="pvemodifier" value="8" />
+        <attribute key="skillFist" value="5" />
+	</item>
+    <item id="12454" article="a" name="Ressurected Lord boots">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="215" />
+        <attribute key="skillClub" value="300" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentphysical" value="120" />
+        <attribute key="maxhitpoints" value="16000" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="pvemodifier" value="8" />
+        <attribute key="skillFist" value="5" />
+	</item>
+    <!-- REIATSU PVP 2 SET -->
+    <item id="13783" name="corrupted reiatsu mask">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="215" />
+        <attribute key="skillFist" value="10" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentfire" value="80" />
+        <attribute key="maxhitpoints" value="16000" />
+		<attribute key="slotType" value="head" />
+        <attribute key="skillAxe" value="25" />
+        <attribute key="pvemodifier" value="16" />
+	</item>
+    <item id="13784" name="corrupted reiatsu kimono">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="215" />
+        <attribute key="skillFist" value="10" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentfire" value="80" />
+        <attribute key="maxhitpoints" value="16000" />
+		<attribute key="slotType" value="body" />
+        <attribute key="skillAxe" value="25" />
+        <attribute key="pvemodifier" value="16" />
+	</item>
+    <item id="12984" name="corrupted reiatsu legs">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="215" />
+        <attribute key="skillFist" value="10" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentfire" value="80" />
+        <attribute key="maxhitpoints" value="16000" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="skillAxe" value="25" />
+        <attribute key="pvemodifier" value="16" />
+	</item>
+    <item id="12985" article="a" name="corrupted reiatsu shackles">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="215" />
+        <attribute key="skillFist" value="10" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentfire" value="80" />
+        <attribute key="maxhitpoints" value="16000" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="skillAxe" value="25" />
+        <attribute key="pvemodifier" value="16" />
+	</item>
+    <!-- YHWACH SET --> 
+    <item id="13749" name="Yhwach head covering">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="215" />
+        <attribute key="skillFist" value="10" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentfire" value="60" />
+        <attribute key="maxhitpoints" value="16000" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="skillAxe" value="40" />
+	</item>
+    <item id="13750" name="Yhwach cape">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="215" />
+        <attribute key="skillFist" value="10" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentfire" value="60" />
+        <attribute key="maxhitpoints" value="16000" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="skillAxe" value="40" />
+	</item>
+    <item id="13751" name="Yhwach legs">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="215" />
+        <attribute key="skillFist" value="10" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentfire" value="60" />
+        <attribute key="maxhitpoints" value="16000" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="skillAxe" value="40" />
+	</item>
+    <item id="13752" article="a" name="Yhwach boots">
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="215" />
+        <attribute key="skillFist" value="10" />
+        <attribute key="skillClub" value="125" />
+        <attribute key="absorbpercentplayer" value="8" />
+        <attribute key="boostpercentfire" value="60" />
+        <attribute key="maxhitpoints" value="16000" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="skillAxe" value="40" />
+	</item>
+    
+    <!-- UBER DUNGEON ITEMS -->
+    <!-- UBER GRAND FISHER -->
+    <item id="13242" article="a" name="[UBER] Grand Fisher mask">
+		<attribute key="rarity" value="5" />
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="139200" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="14" />
+        <attribute key="skillAxe" value="25" />
+        <attribute key="boostpercentphysical" value="140" />
+        <attribute key="boostpercentfire" value="100" />
+		<attribute key="slotType" value="head" />
+	</item>
+    <!-- MELEE PVE -->
+    <item id="13252" article="a" name="[UBER] Hiyori mask">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="300" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="300" />
+        <attribute key="pvemodifier" value="8" />
+        <attribute key="skillFist" value="15" />
+        <attribute key="slotType" value="head" />
+	</item>
+    <item id="13253" article="a" name="[UBER] Hiyori jacket">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="300" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="300" />
+        <attribute key="pvemodifier" value="8" />
+		<attribute key="slotType" value="body" />
+        <attribute key="skillFist" value="15" />
+	</item>
+    <item id="13254" article="a" name="[UBER] Hiyori legs">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="300" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="300" />
+        <attribute key="pvemodifier" value="8" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="skillFist" value="15" />
+	</item>
+    <item id="13255" article="a" name="[UBER] Hiyori trainers">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="300" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="300" />
+        <attribute key="pvemodifier" value="8" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="skillFist" value="15" />
+	</item>
+    <!-- REIATSU PVE -->
+    <item id="13244" article="a" name="[UBER] Urahara hat">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+		<attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentfire" value="306" />
+		<attribute key="slotType" value="head" />
+        <attribute key="skillAxe" value="50" />
+        <attribute key="pvemodifier" value="8" />
+        <attribute key="manaGain" value="100" />
+		<attribute key="manaTicks" value="1000" />
+	</item>
+    <item id="13245" article="a" name="[UBER] Urahara jacket">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentfire" value="306" />
+		<attribute key="slotType" value="body" />
+        <attribute key="skillAxe" value="50" />
+        <attribute key="pvemodifier" value="8" />
+        <attribute key="manaGain" value="100" />
+		<attribute key="manaTicks" value="1000" />
+	</item>
+    <item id="13246" article="a" name="[UBER] Urahara legs">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentfire" value="306" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="skillAxe" value="50" />
+        <attribute key="pvemodifier" value="8" />
+        <attribute key="manaGain" value="100" />
+		<attribute key="manaTicks" value="1000" />
+	</item>
+    <item id="13247" name="[UBER] Urahara sandals">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentfire" value="306" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="skillAxe" value="50" />
+        <attribute key="pvemodifier" value="8" />
+        <attribute key="manaGain" value="100" />
+		<attribute key="manaTicks" value="1000" />
+	</item>
+    <!-- YAMMY SET -->
+    <item id="13250" article="a" name="[UBER] Yammy mask">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="14" />
+        <attribute key="boostpercentfire" value="280" />
+        <attribute key="pvemodifier" value="8" />
+		<attribute key="slotType" value="head" />
+        <attribute key="skillAxe" value="40" />
+	</item>
+    <item id="13251" article="a" name="[UBER] Yammy armor">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="14" />
+        <attribute key="boostpercentfire" value="280" />
+        <attribute key="pvemodifier" value="8" />
+		<attribute key="slotType" value="body" />
+        <attribute key="skillAxe" value="40" />
+	</item>
+    <item id="13795" article="a" name="[UBER] Yammy covering">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="14" />
+        <attribute key="boostpercentfire" value="280" />
+        <attribute key="pvemodifier" value="8" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="skillAxe" value="40" />
+	</item>
+    <item id="13796" article="a" name="[UBER] Yammy feets">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="14" />
+        <attribute key="boostpercentfire" value="280" />
+        <attribute key="pvemodifier" value="8" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="skillAxe" value="40" />
+	</item>
+    <!-- CRITICAL SET -->
+    <item id="13248" article="a" name="[UBER] Grimmjow mask">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="skillFist" value="25" />
+        <attribute key="skillDist" value="15" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="150" />
+        <attribute key="boostpercentfire" value="116" />
+		<attribute key="slotType" value="head" />
+        <attribute key="skillAxe" value="15" />
+	</item>
+    <item id="13249" article="a" name="[UBER] Grimmjow jacket">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="skillFist" value="25" />
+        <attribute key="skillDist" value="15" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="140" />
+        <attribute key="boostpercentfire" value="100" />
+		<attribute key="slotType" value="body" />
+        <attribute key="skillAxe" value="15" />
+	</item>
+    <item id="13791" article="a" name="[UBER] Grimmjow legs">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="skillFist" value="25" />
+        <attribute key="skillDist" value="15" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="150" />
+        <attribute key="boostpercentfire" value="116" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="skillAxe" value="15" />
+	</item>
+    <item id="13792" article="a" name="[UBER] Grimmjow talons">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="skillFist" value="25" />
+        <attribute key="skillDist" value="15" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="140" />
+        <attribute key="boostpercentfire" value="100" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="skillAxe" value="15" />
+	</item>
+    <!-- WAVE SET -->
+    <item id="13256" article="a" name="[UBER] Barragan mask">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="300" />
+        <attribute key="pvemodifier" value="8" />
+		<attribute key="slotType" value="head" />
+        <attribute key="skillFist" value="15" />
+	</item>
+    <item id="13257" article="a" name="[UBER] Barragan jacket">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="300" />
+        <attribute key="pvemodifier" value="8" />
+		<attribute key="slotType" value="body" />
+        <attribute key="skillFist" value="15" />
+	</item>
+    <item id="13813" article="a" name="[UBER] Barragan legs">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="300" />
+        <attribute key="pvemodifier" value="8" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="skillFist" value="15" />
+	</item>
+    <item id="13786" article="a" name="[UBER] Barragan boots">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="300" />
+        <attribute key="pvemodifier" value="8" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="skillFist" value="15" />
+	</item>
+    <!-- SUMMON SET -->
+    <item id="13258" name="[UBER] Coyote Starrk eyepatch">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="7500" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="500" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="skillAxe" value="50" />
+        <attribute key="boostpercentphysical" value="204" />
+		<attribute key="slotType" value="head" />
+	</item>
+    <item id="13259" article="a" name="[UBER] Coyote Starrk jacket">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+		<attribute key="skillClub" value="500" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="skillAxe" value="50" />
+        <attribute key="boostpercentfire" value="204" />
+		<attribute key="slotType" value="body" />
+	</item>
+    <item id="13797" name="[UBER] Coyote Starrk legs">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="7500" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="500" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="skillAxe" value="50" />
+        <attribute key="boostpercentfire" value="204" />
+		<attribute key="slotType" value="legs" />
+	</item>
+    <item id="13798" article="a" name="[UBER] Coyote Starrk boots">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+		<attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="skillAxe" value="50" />
+        <attribute key="boostpercentfire" value="204" />
+		<attribute key="slotType" value="feet" />
+	</item>
+    <!-- CAST SPEED SET -->
+    <item id="13264" article="a" name="[UBER] Ulquiorra horns">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="skillAxe" value="75" />
+        <attribute key="boostpercentfire" value="204" />
+		<attribute key="slotType" value="head" />
+        <attribute key="manaGain" value="100" />
+		<attribute key="manaTicks" value="1000" />
+	</item>
+    <item id="13265" article="a" name="[UBER] Ulquiorra chest">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+		<attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="skillAxe" value="75" />
+        <attribute key="boostpercentfire" value="204" />
+		<attribute key="slotType" value="body" />
+        <attribute key="manaGain" value="100" />
+		<attribute key="manaTicks" value="1000" />
+	</item>
+    <item id="13266" name="[UBER] Ulquiorra pants">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="7500" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="skillAxe" value="75" />
+        <attribute key="boostpercentfire" value="204" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="manaGain" value="100" />
+		<attribute key="manaTicks" value="1000" />
+	</item>
+    <item id="13267" name="[UBER] Ulquiorra talons">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+		<attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="skillAxe" value="75" />
+        <attribute key="boostpercentfire" value="204" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="manaGain" value="100" />
+		<attribute key="manaTicks" value="1000" />
+	</item>
+    <!-- MELEE SWING SET -->
+    <item id="13260" article="a" name="[UBER] Nnoitra mask">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="213" />
+		<attribute key="slotType" value="head" />
+        <attribute key="skillFist" value="10" />
+	</item>
+    <item id="13261" article="a" name="[UBER] Nnoitra shirt">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+		<attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="213" />
+		<attribute key="slotType" value="body" />
+        <attribute key="skillFist" value="10" />
+	</item>
+    <item id="13262" name="[UBER] Nnoitra legs">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="7500" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="213" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="skillFist" value="10" />
+	</item>
+    <item id="13263" name="[UBER] Nnoitra boots">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+		<attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="213" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="skillFist" value="10" />
+	</item>
+    <!-- PROT SET -->
+    <item id="13799" article="a" name="[UBER] Ichigo fullbringer mask">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="139200" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="14" />
+        <attribute key="boostpercentphysical" value="91" />
+        <attribute key="boostpercentfire" value="72" />
+		<attribute key="slotType" value="head" />
+	</item>
+    <item id="13800" article="a" name="[UBER] Ichigo fullbringer plate">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="139200" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="14" />
+        <attribute key="boostpercentphysical" value="91" />
+        <attribute key="boostpercentfire" value="72" />
+		<attribute key="slotType" value="body" />
+	</item>
+    <item id="13269" article="a" name="[UBER] Ichigo fullbringer legs">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="139200" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="14" />
+        <attribute key="boostpercentphysical" value="91" />
+        <attribute key="boostpercentfire" value="72" />
+		<attribute key="slotType" value="legs" />
+	</item>
+    <item id="13270" article="a" name="[UBER] Ichigo fullbringer boots">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="139200" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="14" />
+        <attribute key="boostpercentphysical" value="91" />
+        <attribute key="boostpercentfire" value="72" />
+		<attribute key="slotType" value="feet" />
+	</item>
+    <!-- REIATSU PVP 1 SET -->
+    <item id="13271" article="a" name="[UBER] Hollowed Hichigo mask">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentfire" value="600" />
+        <attribute key="pvemodifier" value="12" />
+		<attribute key="slotType" value="head" />
+        <attribute key="skillAxe" value="50" />
+        <attribute key="manaGain" value="200" />
+		<attribute key="manaTicks" value="1000" />
+	</item>
+    <item id="13274" article="a" name="[UBER] Hollowed Hichigo coat">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentfire" value="600" />
+        <attribute key="pvemodifier" value="12" />
+		<attribute key="slotType" value="body" />
+        <attribute key="skillAxe" value="50" />
+        <attribute key="manaGain" value="200" />
+		<attribute key="manaTicks" value="1000" />
+	</item>
+    <item id="13801" article="a" name="[UBER] Hollowed Hichigo hakama">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentfire" value="600" />
+        <attribute key="pvemodifier" value="12" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="skillAxe" value="50" />
+        <attribute key="manaGain" value="200" />
+		<attribute key="manaTicks" value="1000" />
+	</item>
+    <item id="13802" article="a" name="[UBER] Hollowed Hichigo sandals">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentfire" value="600" />
+        <attribute key="pvemodifier" value="12" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="skillAxe" value="50" />
+        <attribute key="manaGain" value="200" />
+		<attribute key="manaTicks" value="1000" />
+	</item>
+    <!-- MELEE PVP 1 SET -->
+    <item id="13273" article="a" name="[UBER] Tensa Zangetsu eyeglasses">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="310" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="250" />
+        <attribute key="pvemodifier" value="8" />
+		<attribute key="slotType" value="head" />
+	</item>
+    <item id="13272" article="a" name="[UBER] Tensa Zangetsu coat">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="310" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="250" />
+        <attribute key="pvemodifier" value="8" />
+		<attribute key="slotType" value="body" />
+	</item>
+    <item id="13803" article="a" name="[UBER] Tensa Zangetsu legs">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="310" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="250" />
+        <attribute key="pvemodifier" value="8" />
+		<attribute key="slotType" value="legs" />
+	</item>
+    <item id="13804" article="a" name="[UBER] Tensa Zangetsu boots">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="310" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="250" />
+        <attribute key="pvemodifier" value="8" />
+		<attribute key="slotType" value="feet" />
+	</item>
+    <!-- BLIND SET -->
+    <item id="13714" article="a" name="[UBER] Hollowed Tousen mask">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="139200" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="14" />
+        <attribute key="skillAxe" value="25" />
+        <attribute key="boostpercentphysical" value="213" />
+        <attribute key="boostpercentfire" value="204" />
+		<attribute key="slotType" value="head" />
+	</item>
+    <item id="13281" article="a" name="[UBER] Tousen coat">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="139200" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="14" />
+        <attribute key="skillAxe" value="25" />
+        <attribute key="boostpercentphysical" value="213" />
+        <attribute key="boostpercentfire" value="204" />
+		<attribute key="slotType" value="body" />
+	</item>
+    <item id="13805" article="a" name="[UBER] Tousen legs">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="139200" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="14" />
+        <attribute key="skillAxe" value="25" />
+        <attribute key="boostpercentphysical" value="213" />
+        <attribute key="boostpercentfire" value="204" />
+		<attribute key="slotType" value="legs" />
+	</item>
+    <item id="13806" article="a" name="[UBER] Tousen boots">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="139200" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="14" />
+        <attribute key="skillAxe" value="25" />
+        <attribute key="boostpercentphysical" value="213" />
+        <attribute key="boostpercentfire" value="204" />
+		<attribute key="slotType" value="feet" />
+	</item>
+    <!-- RESSURECTION SET -->
+    <item id="13282" article="a" name="[UBER] Hollowed Aizen mask">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentfire" value="340" />
+		<attribute key="slotType" value="head" />
+        <attribute key="skillAxe" value="35" />
+	</item>
+    <item id="13283" article="a" name="[UBER] Hollowed Aizen jacket">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentfire" value="340" />
+		<attribute key="slotType" value="body" />
+        <attribute key="skillAxe" value="35" />
+	</item>
+    <item id="13807" article="a" name="[UBER] Hollowed Aizen legs">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentfire" value="340" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="skillAxe" value="35" />
+	</item>
+    <item id="13808" article="a" name="[UBER] Hollowed Aizen boots">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentfire" value="340" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="skillAxe" value="35" />
+	</item>
+    <!-- AS SET -->
+    <item id="13275" article="a" name="[UBER] Shunsui hat">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="1000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+		<attribute key="skillClub" value="435" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="68" />
+        <attribute key="boostpercentfire" value="68" />
+		<attribute key="slotType" value="head" />
+	</item>
+    <item id="13276" article="a" name="[UBER] Shunsui haori">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+		<attribute key="skillClub" value="435" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="68" />
+        <attribute key="boostpercentfire" value="68" />
+		<attribute key="slotType" value="body" />
+	</item>
+    <item id="13277" name="[UBER] Shunsui hakama">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="7500" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="435" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="68" />
+        <attribute key="boostpercentfire" value="68" />
+		<attribute key="slotType" value="legs" />
+	</item>
+    <item id="13278" name="[UBER] Shunsui sandals">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+		<attribute key="skillClub" value="435" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="68" />
+        <attribute key="boostpercentfire" value="68" />
+		<attribute key="slotType" value="feet" />
+	</item>
+    <!-- FIRE DoT SET -->
+    <item id="13809" article="a" name="[UBER] Yamamoto beard ribbon">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="306" />
+        <attribute key="boostpercentfire" value="238" />
+        <attribute key="skillAxe" value="40" />
+		<attribute key="slotType" value="head" />
+	</item>
+    <item id="13287" article="a" name="[UBER] Yamamoto shirt">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="306" />
+        <attribute key="boostpercentfire" value="238" />
+        <attribute key="skillAxe" value="40" />
+		<attribute key="slotType" value="body" />
+	</item>
+    <item id="13288" name="[UBER] Yamamoto hakama">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="7500" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="306" />
+        <attribute key="boostpercentfire" value="238" />
+        <attribute key="skillAxe" value="40" />
+		<attribute key="slotType" value="legs" />
+	</item>
+    <item id="13810" name="[UBER] Yamamoto sandals">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="7500" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="306" />
+        <attribute key="boostpercentfire" value="238" />
+        <attribute key="skillAxe" value="40" />
+		<attribute key="slotType" value="feet" />
+	</item>
+    <!-- MELEE PVP 2 SET --> 
+    <item id="13793" name="[UBER] Ressurected Lord crown">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="7500" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="408" />
+		<attribute key="slotType" value="head" />
+        <attribute key="skillFist" value="15" />
+        <attribute key="pvemodifier" value="10" />
+	</item>
+    <item id="13794" article="a" name="[UBER] Ressurected Lord jacket">
+    <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="408" />
+		<attribute key="slotType" value="body" />
+        <attribute key="skillFist" value="15" />
+        <attribute key="pvemodifier" value="10" />
+	</item>
+    <item id="13289" name="[UBER] Ressurected Lord legs">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="7500" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="408" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="skillFist" value="15" />
+        <attribute key="pvemodifier" value="10" />
+	</item>
+    <item id="13290" article="a" name="[UBER] Ressurected Lord boots">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="375" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="boostpercentphysical" value="408" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="skillFist" value="15" />
+        <attribute key="pvemodifier" value="10" />
+	</item>
+    <!-- REIATSU PVP 2 SET --> 
+    <item id="13811" name="[UBER] corrupted reiatsu mask">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="7500" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="skillFist" value="20" />
+        <attribute key="boostpercentfire" value="340" />
+        <attribute key="pvemodifier" value="8" />
+		<attribute key="slotType" value="head" />
+        <attribute key="skillAxe" value="25" />
+        <attribute key="pvemodifier" value="10" />
+        <attribute key="skillDist" value="10" />
+	</item>
+    <item id="13812" article="a" name="[UBER] corrupted reiatsu kimono">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="skillFist" value="20" />
+        <attribute key="boostpercentfire" value="340" />
+        <attribute key="pvemodifier" value="8" />
+		<attribute key="slotType" value="body" />
+        <attribute key="skillAxe" value="25" />
+        <attribute key="pvemodifier" value="10" />
+        <attribute key="skillDist" value="10" />
+	</item>
+    <item id="13291" name="[UBER] corrupted reiatsu legs">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="7500" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="skillFist" value="20" />
+        <attribute key="boostpercentfire" value="340" />
+        <attribute key="pvemodifier" value="8" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="skillAxe" value="25" />
+        <attribute key="pvemodifier" value="10" />
+        <attribute key="skillDist" value="10" />
+	</item>
+    <item id="13292" article="a" name="[UBER] corrupted reiatsu shackles">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="skillFist" value="20" />
+        <attribute key="boostpercentfire" value="340" />
+        <attribute key="pvemodifier" value="8" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="skillAxe" value="25" />
+        <attribute key="pvemodifier" value="10" />
+        <attribute key="skillDist" value="10" />
+	</item>
+    <!-- YHWACH 2 SET --> 
+    <item id="13753" name="[UBER] Yhwach head covering">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="7500" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="skillFist" value="25" />
+        <attribute key="boostpercentfire" value="204" />
+		<attribute key="slotType" value="head" />
+        <attribute key="skillAxe" value="40" />
+        <attribute key="skillDist" value="10" />
+	</item>
+    <item id="13754" article="a" name="[UBER] Yhwach cape">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="skillFist" value="25" />
+        <attribute key="boostpercentfire" value="204" />
+		<attribute key="slotType" value="body" />
+        <attribute key="skillAxe" value="40" />
+        <attribute key="skillDist" value="10" />
+	</item>
+    <item id="13755" name="[UBER] Yhwach legs">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="7500" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="skillFist" value="25" />
+        <attribute key="boostpercentfire" value="204" />
+		<attribute key="slotType" value="legs" />
+        <attribute key="skillAxe" value="40" />
+        <attribute key="skillDist" value="10" />
+	</item>
+    <item id="13756" article="a" name="[UBER] Yhwach boots">
+        <attribute key="rarity" value="5" />
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="430" />
+        <attribute key="maxhitpoints" value="92800" />
+        <attribute key="skillClub" value="250" />
+        <attribute key="absorbpercentplayer" value="10" />
+        <attribute key="skillFist" value="25" />
+        <attribute key="boostpercentfire" value="204" />
+		<attribute key="slotType" value="feet" />
+        <attribute key="skillAxe" value="40" />
+        <attribute key="skillDist" value="10" />
+	</item>
+</items>
