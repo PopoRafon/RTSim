@@ -12,6 +12,7 @@ class Item:
         self.critStrike = 0
         self.castSpeed = 0
         self.attackSpeed = 0
+        self.bonuses = []
 
         tree = ET.parse("items.xml")
         root = tree.getroot()
@@ -46,3 +47,25 @@ class Item:
                         self.castSpeed = int_value
                     case 'skillClub':
                         self.attackSpeed = int_value
+
+    def setBonus(self, bonus):
+        if len(self.bonuses) == 4:
+            print(f"Item {self.id} have already 4 bonuses.")
+            return
+
+        if bonus == "Physical Damage":
+            self.physDamage += 92
+        elif bonus == "Reiatsu Damage":
+            self.reiDamage += 92
+        elif bonus == "Attack Speed":
+            self.attackSpeed += 7
+        elif bonus == "Casting Speed":
+            self.castSpeed += 7
+        elif bonus == "Critical Hit Chance":
+            self.critChance += 7
+        elif bonus == "Critical Strike Damage":
+            self.critStrike += 7
+        else:
+            return
+        
+        self.bonuses.append(bonus)

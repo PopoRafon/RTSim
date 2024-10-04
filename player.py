@@ -6,6 +6,7 @@ import bisect
 from transforms import transforms
 from talents import Talents
 from item import Item
+from sets import Sets
 
 class Player:
     baseSpellDamage = {
@@ -39,6 +40,7 @@ class Player:
             'boots': None,
             'shield': None
         }
+        self.set = None
 
     def getHealth(self):
         baseHealth = self.health + (100 * (self.level - 1)) + transforms[self.transform].health
@@ -76,6 +78,8 @@ class Player:
                 assert isinstance(equipmentIds[key], int), 'Equipment id must be an integer'
                 self.equipment[key] = Item(equipmentIds[key])
 
+        self.set = Sets(self.equipment)
+
     def getCriticalChanceValue(self):
         itemBonus = 0
 
@@ -84,6 +88,9 @@ class Player:
                 itemBonus += piece.critChance
 
         itemBonus += self.talents.criticalStrikeChance
+
+        if self.set and self.set.getSetBonus(20) == 4:
+            itemBonus += 60
 
         return itemBonus
 
@@ -96,30 +103,35 @@ class Player:
 
         itemBonus += self.talents.criticalStrikeDamage
 
+        if self.set and self.set.getSetBonus(20) == 2:
+            itemBonus += 30
+        elif self.set and self.set.getSetBonus(20) == 4:
+            itemBonus += 60
+
         return itemBonus
 
-    def getMaxWeaponDamage(self):
+    def getMeleeDamage(self):
         weaponTable = [10, 20, 40, 60, 90, 150, 200, 280, 300]
         attackValue = weaponTable[self.weapon]
-        return int(round((attackValue * 3 + self.weaponSkill + self.level / 2) * 3 +
-                         ((self.level * 3 + self.soulLevel * 3) / 7.0) *
-                         (1.0 + (attackValue / 100.0)) *
-                         (math.pow(2.0, (self.weaponSkill - 10) / 48.0))))
+        maxValue = int(round((attackValue * 3 + self.weaponSkill + self.level / 2) * 3 +
+                             ((self.level * 3 + self.soulLevel * 3) / 7.0) *
+                             (1.0 + (attackValue / 100.0)) *
+                             (math.pow(2.0, (self.weaponSkill - 10) / 48.0))))
 
-    def getWeaponDamage(self):
-        maxValue = self.getMaxWeaponDamage()
         if random.randint(0, 100) < self.getCriticalChanceValue():
             maxValue = maxValue * (1 + (self.getCriticalStrikeValue() / 100))
 
-        return random.randint(int(maxValue * 0.75), int(maxValue))
-
-    def getMeleeDamage(self):
-        weaponValue = self.getWeaponDamage()
+        randValue = random.randint(int(maxValue * 0.75), int(maxValue))
         itemBonus = sum([piece.physDamage if isinstance(piece, Item) else 0 for piece in self.equipment.values()])
         itemBonus += self.talents.meleeDamage * 10
         talentsTotalDamageMulti = 1 + (self.talents.totalDamage / 100)
 
-        return int((weaponValue * transforms[self.transform].multi * (1 + itemBonus / 1000)) * talentsTotalDamageMulti)
+        finalDamage = int((randValue * transforms[self.transform].multi * (1 + itemBonus / 1000)) * talentsTotalDamageMulti)
+
+        if self.set and self.set.getSetBonus(4) == 4:
+            finalDamage *= 1.5
+
+        return finalDamage
 
     def getSpellDamage(self):
         base_damage = 0
